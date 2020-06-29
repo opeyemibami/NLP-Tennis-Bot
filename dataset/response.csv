@@ -1,0 +1,62 @@
+response,labels
+"Hello, I'm sure you love tennis",11
+Happy to have you here,11
+Good to see you again,11
+"Hi there, how can I help?",11
+"Hi, I'm  BoTennis",16
+I'm BoTennis ,16
+Call me BoTennis,16
+Have a lovely tennis!,3
+Have a nice tennis playing time,3
+Enjoy the game!,3
+Have fun with the balls,3
+Happy to help!,13
+Any time!,13
+My pleasure,13
+Do enjoy the game,13
+Have fun on tennis court,13
+"Sorry, kindly rephrase the question",1
+"Sorry, can't understand you",1
+Please give me more information,1
+Not sure I understand,1
+I can guide you through how to get started with tennis,8
+"I know quiet some rules in tennis, game types, top players and many more",0
+"I know some key words like tie-break, love, advantage and Ace to mention a few",0
+Ask me a question about tennis and I will answer to the best of my knowledge,0
+"As at January 2020, 
+Men: Novak Djokovic, Rafael Nadal, Dominic Thiem, Roger Federer and Daniil Medvedev.  
+Females: Asheleigh Barty, Simona Halep, Karolina Pliskova, Sofia Ofia Kenin and Elina Svitolina",15
+"A ball must land within bounds for play to continue; if a player hits the ball outside of bounds, this results in the loss of the point for them.
+Players/teams cannot touch the net or posts or cross onto the opponent's side.
+Players/teams cannot carry the ball or catch it with the racquet.
+Players cannot hit the ball twice.
+Players must wait until the ball passes the net before they can return it.
+A player that does not return a live ball before it bounces twice loses the point.
+If the ball hits or touches the players, that counts as a penalty.
+If the racquet leaves the hand or verbal abuse occurs, a penalty is given.
+Any ball that bounces on the lines of boundary are considered good.
+A serve must bounce first before the receiving player can return it. ",5
+"Tennis shoes, Tennis clothes, Tennis Ball, Tennis headgear, Water bottles, Towels, Sun cream, Sunglasses, Wrist bands and Kit bag",6
+"Baseline - The baselines are the lines on either end of the court that determines the boundaries of play going lengthwise. They are also where a player serves behind.
+Center Mark - The center mark determines the two halves of the tennis court. It mainly helps with service to determine where a player should stand prior to serving.
+Center Line - The center line divides the two service boxes into a distinct left service box and right service box on either side of the court. Landing a serve on the line is considered good.
+Net - The net stands 3 feet and 6 inches high where the posts lie while the middle of the net is 3 feet tall, with the posts 3 feet outside of the court on either side. Hitting a ball into the net is considered an out while any ball that hits the net cord and falls onto the other side is considered good except for a serve, which allows for a re-do, or let.
+Service Line - The service line separates the forecourt from the back court, and it also marks the length of the service box.
+Singles Sideline - The singles sideline is the innermost line running lengthwise and determines the boundary of play for singles matches as well as the width of the service box.
+Doubles Sideline - The doubles sideline is the outermost line running lengthwise and is only used in doubles matches.",2
+"A flip of the coin or spin of the racket, known as the toss, determines which player or team serves first. If called correctly, the player or team that did so chooses who serves first. The player/team who did not call it correctly decides which side of the court they want to play on first.",4
+"First Service - The server is allowed two chances to land their ball into the service box. The first attempt is known as the first service. Failing the first service leads to the second service.
+Second Service - The second attempt is known as the second service. Failing the second service results in the loss of the point.
+Let - A let is a re-do given to a player who serves although the ball hits the net cord before falling into the correct service box. You are allowed an infinite amount of lets, although it does not happen often.
+Order of Service - The player/team who wins the toss serves first (team that wins chooses which player serves). If playing singles matches, players alternate between serving and receiving every game. If playing doubles matches, teams alternate between serving and receiving every game, with each player on a team getting the chance to serve before the cycle repeats.
+Switching Sides - Players/teams switch sides for every odd-numbered game (so, games 3, 5, 7 etc.)",10
+A tennis game can either be Singles or Doubles. Singles type involve a player playing against another player while Doubles type invlove a team of 2 players playing against another team of 2 players,12
+"If a score of 6-6 is reached and tie-break rules are used, a tie-break game is played in order to determine which player wins the set. For a tie-break game, the goal is to reach 7 points first with a lead of at least 2, and doing so results in the win of the set. The player who serves first is the player who would normally serve after 6-6, or 12 games.",14
+"Points - Smallest unit of measurement. Points increment from Love(0)-15-30-40-game.
+Games - Games consist of 4 points each, and is won when a player reaches 4 points with at least a 2 point advantage.
+Sets - A set consists of 6 games and is won by the player/team who reaches 6 games first with least a 2 point lead.
+Advantage Set - If a game score of 6-6 is reached and advantage set rules are used, a player/team can only win a set with a 2 game lead.
+Matches - A match is usually played as best of 3 or best of 5 sets.
+Deuce - Occurs if a score of 40-40 is reached. In order to win the game, a player/team must win 2 consecutive points in order to take the game. If a player wins one point, they have advantage, but if they lose the next point, the score returns to deuce.
+Tie-break game - If a game score of 6-6 is reached and tie-break set rules are used, players must play a tie-break game in order to decide who wins the set. In a tie-break game, a player/team must reach 7 points with a two point advantage to win. For the serving format of a tie-break game, player 1 serves for the first point, player 2 serves for the next two points, player 1 serves for the next two points after that, etc.",9
+"Both Singes and Doubles are often played to the best of 5 sets, sometimes 3 or 7 sets are allowed.",7
