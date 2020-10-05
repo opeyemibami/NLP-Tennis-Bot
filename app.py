@@ -82,5 +82,5 @@ st.sidebar.image(federer_image)
 st.sidebar.image(nadal,width=350)
 
 user_input = get_text()
-# response = botResponse(user_input)
-# st.text_area("Bot:", value=response, height=200, max_chars=None, key=None)
+response = botResponse(user_input)
+st.text_area("Bot:", value=response, height=200, max_chars=None, key=None)
