@@ -6,12 +6,15 @@ import re
 import json
 
 import nltk
+nltk.download('wordnet') 
+
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import load_model
 
 lemmatizer = WordNetLemmatizer()
+
 
 def tokenizer(entry):
     tokens = entry.split()
