@@ -6,6 +6,7 @@ import joblib
 from pathlib import Path 
 from PIL import Image
 import streamlit as st
+import SessionState
 
 #paths
 img_path = Path.joinpath(Path.cwd(),'images')
@@ -23,6 +24,8 @@ tokenizer_t = joblib.load(Path.joinpath(artifacts_path,'tokenizer_t.pkl'))
 vocab = joblib.load(Path.joinpath(artifacts_path,'vocab.pkl'))
 
 df2 = pd.read_csv(Path.joinpath(datasets_path,'response.csv'))
+
+ss = SessionState.get(is_startup=True) 
 
 def get_pred(model,encoded_input):
     pred = np.argmax(model.predict(encoded_input))
@@ -44,7 +47,7 @@ def bot_response(response,):
     return response
 
 
-def botResponse(user_input,is_startup=True):
+def botResponse(user_input):
     df_input = user_input
     
     df_input = p.remove_stop_words_for_input(p.tokenizer,df_input,'questions')
@@ -56,9 +59,9 @@ def botResponse(user_input,is_startup=True):
     response = get_response(df2,pred)
     response = bot_response(response)
     
-    if is_startup:
+    if ss.is_startup:
         response = "Hi, I'm happy to have you here \nI have a lot to discuss about tennis"
-        is_startup = False
+        ss.is_startup = False
         return response
 
     else:

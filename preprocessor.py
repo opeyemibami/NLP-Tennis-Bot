@@ -1,12 +1,12 @@
 import pandas as pd 
 import numpy as np 
-import matplotlib.pyplot as plt
 import string
 import re
 import json
 
+
 import nltk
-nltk.download('wordnet') 
+# nltk.download('wordnet') 
 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
