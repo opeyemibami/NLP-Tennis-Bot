@@ -1,4 +1,4 @@
-## NLP-Tennis-Bot
+## NLP-Tennis-Bot [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/opeyemibami/nlp-tennis-bot/master/app.py)
 A Conversational chatbot built with NLTK and Tensorflow on tennis corpus
 
 This project utilizes cutting-edge tools, frameworks and libraries to such as Tensorflow, Streamlit, Web scrapping tools to build an 
