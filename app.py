@@ -77,7 +77,7 @@ def get_text():
 st.sidebar.title("BoTennis")
 st.title("""
 BoTennis  
-BoTennis is a NLP bot trainned basic tennis corpus using  CNN achitecture
+BoTennis is a NLP bot trainned basic student assistant using  CNN achitecture
 """)
 
 st.image(center,width=700)
